@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        Absolutey nothing
+    </body>
+</html>
+<script>
+var x = 0
+function Update(){
+x += 1
+  switch(x % 3){
+  case 0:
+      document.body.innerHTML = "(-_-()"
+  case 1:
+      document.body.innerHTML = "|-_-|"
+  case 2:
+      document.body.innerHTML = "()-_-)"
+  }
+}
+meh = setTimeout(Update(), 1000)
+</script>
